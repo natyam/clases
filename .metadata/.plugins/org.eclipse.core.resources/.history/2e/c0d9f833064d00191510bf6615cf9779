@@ -1,0 +1,52 @@
+package edu.utn.vista;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		String message= "hola mundo";
+		saludar (message);
+		
+		double resultado = inc(45,1.55);
+		
+		System.out.println(resultado);
+		
+		if (resultado<18)
+		{
+			System.out.println("Flaca escopeta");
+		}
+		else if (resultado >=18 && resultado<=25)
+		{
+			System.out.println("Hace ejercicio");
+		}
+		
+		System.out.println("La suma de 2+2 =" + sumadosnumeros(2,2));
+		
+		muestrovalores("NATY", "aYALA, 27")
+
+	}
+	
+	public static void saludar (String mensaje)
+	{
+		System.out.println(mensaje);
+	}
+	
+	public static double inc (double peso, double altura)
+	{
+		double resultado= peso/(altura*altura);
+		return resultado;
+	}
+	public static int sumadosnumeros(int a, int b)
+	{
+		return a+b;
+	}
+	
+	public void muestrovalores(String nombre, String apellido, int edad)
+	{
+		System.out.println("Su nombre es" + nombre);
+		System.out.println("Su apellido es" + apellido);
+		System.out.println("Su edad es" + int);
+	}
+
+	
+}

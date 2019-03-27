@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+C:\natalia\.metadata\.plugins\org.eclipse.jdt.core
+2932552456.index
+767958965.index
+1202230845.index
+816817835.index

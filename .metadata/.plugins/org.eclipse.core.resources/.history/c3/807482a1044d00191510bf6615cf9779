@@ -1,0 +1,37 @@
+package edu.utn.vista;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		String message= "hola mundo";
+		saludar (message);
+		
+		double resultado = inc(45,1.55);
+		
+		System.out.println(resultado);
+		
+		if (resultado<18)
+		{
+			System.oun.println("Flaca escopeta");
+		}
+		else if (resultado>=18 && resultado=<25)
+		{
+			System.out.println("Hace ejercicio");
+		}
+
+	}
+	
+	public static void saludar (String mensaje)
+	{
+		System.out.println(mensaje);
+	}
+	
+	public static double inc (double peso, double altura)
+	{
+		double resultado= peso/(altura*altura);
+		return resultado;
+	}
+
+	
+}

@@ -1,0 +1,28 @@
+package edu.utn.vista;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		String message= "hola mundo";
+		saludar (message);
+		
+		double resultado = inc(99.0,1.95);
+		
+		System.out.println(resultado);
+		
+	}
+	
+	public static void saludar (String mensaje)
+	{
+		System.out.println(mensaje);
+	}
+	
+	public static double inc (double peso, double altura)
+	{
+		double resultado= peso/(altura*altura);
+		return resultado;
+	}
+
+	
+}

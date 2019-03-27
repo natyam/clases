@@ -1,0 +1,24 @@
+package ejercicio;
+
+public class ejfor {
+public static void main(String[] args) {
+	
+	for(int i=0;i<22;i++)
+	{
+		System.out.println("Hola mundo " +i+" vez");
+
+	}
+	
+	int par=0;
+	for(int i=0;i<22;i++)
+	{
+		if (i%2==0)
+		{
+			par++;
+			System.out.println("Hola mundo " +par+" vez");
+		}
+
+	}
+}
+
+}

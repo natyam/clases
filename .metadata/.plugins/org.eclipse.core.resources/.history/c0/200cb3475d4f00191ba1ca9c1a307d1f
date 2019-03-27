@@ -1,0 +1,28 @@
+package clase4while;
+
+public class Testswhichcase {
+	
+	public static void main (String[] args)
+	{
+		char key ='r';
+		switch (key) {
+		case 'r':
+			System.out.println("color rojo");
+			break;
+		case 'a':
+			System.out.println("color azul");
+			break;
+		case 'y':
+			System.out.println("color amarillo");
+			break;
+		
+		
+		
+		}
+		
+		
+		
+	}
+	
+
+}

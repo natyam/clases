@@ -1,0 +1,17 @@
+package edu.utn.vista;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		mensaje ("hola ");
+		
+	}
+	
+	public static void saludar (String mensaje)
+	{
+		System.out.println(mensaje);
+	}
+
+	
+}
