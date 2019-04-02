@@ -34,7 +34,8 @@ public static void main(String[] args) {
 	}
 	
 	
-	for(int i=35;i>=0;i--)
+	for(int i=35;i>=
+			0;i--)
 	{
 		if (i%2==0)
 		System.out.println("Hola mundo " +i+ ((i>1)? " veces" :"vez"));
