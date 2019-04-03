@@ -37,7 +37,7 @@ public class Galleta {
 	public Double getPrecio() {
 		return precio;
 	}
-	public Double setPrecio(Double precio) {
+	public Double setPrecio (Double precio) {
 		this.precio = precio;
 	}
 	
