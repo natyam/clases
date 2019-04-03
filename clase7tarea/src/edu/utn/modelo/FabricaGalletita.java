@@ -3,6 +3,7 @@ import edu.utn.modelo.Galleta;
 public class FabricaGalletita {
 	public Galleta CrearGalletas(int tipo , Double rangoPrecio)
 	{
+		System.out.println("entra en fabricadegalletas");
 		Galleta g= new Galleta();
 		
 		switch (tipo) {
@@ -24,6 +25,7 @@ public class FabricaGalletita {
 			break;
 		}
 		//Double p= new Double(tipo*rangoPrecio);
+		System.out.println("entra en setprecio");
 		g.setPrecio(rangoPrecio);
 		return g;
 	}
