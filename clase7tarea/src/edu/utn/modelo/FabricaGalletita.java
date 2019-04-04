@@ -3,30 +3,35 @@ import edu.utn.modelo.Galleta;
 public class FabricaGalletita {
 	public Galleta CrearGalletas(int tipo , Double rangoPrecio)
 	{
-		System.out.println("entra en fabricadegalletas");
+		
 		Galleta g= new Galleta();
 		
 		switch (tipo) {
 		case 1:
-			g.setNombre("CHOCOLINA");
+			g.setNombre(TipoGalleta.CHOCOLINA.toString());
+			Double precio=new Double(TipoGalleta.CHOCOLINA.precio()*rangoPrecio);
+			g.setPrecio(precio);
 			break;
 		case 2:
-			g.setNombre("OREO");
+			g.setNombre(TipoGalleta.OREO.toString());
+			g.setPrecio(new Double(TipoGalleta.OREO.precio()*rangoPrecio));
+			
 			break;
 		case 3:
-			g.setNombre("PITUSSA");
+			
+			g.setNombre(TipoGalleta.PITUSA.toString());
+			g.setPrecio(new Double(TipoGalleta.PITUSA.precio()*rangoPrecio));
 	
 	break;
 		case 4:
-			g.setNombre("TODDY");
+			g.setNombre(TipoGalleta.TODDY.toString());
+			g.setPrecio(new Double(TipoGalleta.TODDY.precio()*rangoPrecio));
 			break;
 		default:
 			System.out.println("NO SE PUEDE CREAR GALLETA");
 			break;
 		}
-		//Double p= new Double(tipo*rangoPrecio);
-		System.out.println("entra en setprecio");
-		g.setPrecio(rangoPrecio);
+		
 		return g;
 	}
 		
