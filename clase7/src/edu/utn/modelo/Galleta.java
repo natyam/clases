@@ -46,10 +46,20 @@ public class Galleta {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
+
 	public Double getPrecio() {
 		return precio;
 	}
-	
+	@Override
+	public String toString() {
+		String res = String.format("Galletita: %s sale $ %f",this.nombre,this.precio);
+		return super.toString();
+	}
+
+	public void setPrecio(Double p)
+	{
+		this.precio=p;
+	}
 	
 	
 	
